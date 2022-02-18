@@ -6,8 +6,10 @@ body{
     background-color: #6665b109;
 }
 .countdown {
-    background-color: #7a2772;
-    color:white;
+    width: 80%;
+    margin: auto;
+    background-image: url(images/front_page.jpg);
+    color:black;
     text-align: center;
     height:25%;
 }
@@ -212,4 +214,4 @@ i{
 .attend__info .bolder{
     font-weight: bold;
 }
-
+}
