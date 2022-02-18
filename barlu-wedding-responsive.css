@@ -4,9 +4,6 @@ body{
     display: flex;
     justify-content: center;
 }
-@media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) {
     body{
         flex-direction: column;
     }
@@ -200,4 +197,4 @@ body{
     .attend__info .bolder{
         font-weight: bold;
     }
-}
+
