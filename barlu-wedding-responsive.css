@@ -1,9 +1,9 @@
-body{
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-}
+    body{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
     body{
         flex-direction: column;
     }
@@ -197,4 +197,10 @@ body{
     .attend__info .bolder{
         font-weight: bold;
     }
-
+@media only screen  and (min-device-width: 415px) {
+    body{
+        width: 500px;
+        margin: auto;
+    }
+    
+}
