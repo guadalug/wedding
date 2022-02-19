@@ -22,7 +22,7 @@ label {
 }
 
 .countdown {
-    background: #7a2772;
+    background: #dedad04d;
     height: 100vh;
     width: 100vw;
     background-repeat: no-repeat;
@@ -33,19 +33,6 @@ label {
     padding: 20% 5% 18%;
     box-sizing: border-box;
 }
-.countdown__text{
-    background-color: rgba(255, 255, 255, 0.15);
-    color: black;
-    text-align: center;
-    width: 77vw;
-    height: 85vh;
-    overflow: hidden;
-    padding: 3rem 1rem;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    max-height: 615px;
-}
 
 .countdown h1 {
     font-family: 'Great Vibes', cursive;
@@ -53,13 +40,13 @@ label {
     font-size: 5.5rem;
     text-align: left;
     text-align: center;
-    color: white;
+    color: #8f4951;
     margin: 1rem 0;
 }
 
 .countdown div {
     margin-top: auto;
-    color: white;
+    color: #707563;
     text-align: center;
     font-family: 'Playfair Display', serif;
     font-weight: 100;
@@ -85,7 +72,7 @@ label {
     font-family: 'Poppins';
     letter-spacing: 5px;
     font-size: .8rem;
-    color: white;
+    color: #707563;
 }
 
 .our-story{
@@ -96,14 +83,14 @@ label {
 .our-story h1 {
     font-family: 'Parisienne', cursive;
     font-size: 3rem;
-    color: #6665B1;
+    color: #8f4951;
 }
 
 .our-story h5{
     font-weight: bold;
     font-family: 'Poppins';
     font-size: 1.1rem;
-    color: #7a2772;
+    color: #707563;
 }
 
 .our-story__body {
@@ -115,7 +102,6 @@ label {
 
 .our-story__img{
     width: 30vh;
-    border: #6665B1 2px solid;
     border-radius: 100%;
 }
 
@@ -130,14 +116,14 @@ label {
     
 .our-story__text .bolder{
     font-weight: 900;
-    color: #7a2772;
+    color: #8f4951;
 }
     
 .phrase {
-    border: #7a2772 2px solid;
+    border: #707563 2px solid;
     width: 70%;
     text-align: center;
-    color: #7a2772;
+    color: #707563;
     font-size: 2.5rem;
     font-family: 'Meow Script', cursive;
     padding: 3%;
@@ -151,11 +137,12 @@ label {
     width: 100vw;
     position: absolute;
     height: 100px;
-    background-color: #6665b18f;
+    background-color: #dedad04d;
     height: 70%;
     top: 15%;
     left: 0;
     transform: translateX(-15%);
+    z-index: -1;
 }
 
 .when-where{
@@ -168,19 +155,17 @@ label {
     font-family: 'Parisienne', cursive;
     font-size: 3rem;
     margin: auto;
-    color: #6665B1;
+    color: #8f4951;
 }
     
 .when-where h5{
     font-family: 'Poppins';
     font-size: 1.9vh;
-    color: #7a2772;
+    color: #707563;
 
 }
 
-
 .when-where__tiles-info {
-    background-color: white;
     display: flex;
     flex-direction: column;
 }
@@ -201,62 +186,63 @@ label {
 }
 
 i{
-    color: #7a2772;
+    color: #8f4951c7;
     font-size: 2rem;
 }
 
-    .gallery{
-        text-align: center;
-        margin: auto; 
-        margin-bottom: 2rem;
-    }
-    .gallery img{
-        padding: 0;
-        width: 24vw;
-    }
-    .highlights{
-        color: black;
-        text-align: center;
-    }
-    .highlights h1{
-        font-family: 'Parisienne', cursive;
-        margin-bottom: 1%;
-        color: #6665B1;
-        font-size: 3rem;
-    }
-    .highlights__tiles{
-        display: flex;
-        flex-direction: column;
-        font-family: 'Poppins';
-        align-items: center;
-    }
-    .highlights__tiles h2{
-        margin:  0vh;
-    }
-    .highlights__tiles div{
-        width: 85%;
-        text-align: center;
-        font-family: 'Poppins';
-        padding: 2vh 0vh;
-        background-color: white;
-    }
-    .attend {
-        padding-bottom: 5%;
-        display: flex;
+.gallery{
+    text-align: center;
+    margin: auto; 
+    margin-bottom: 2rem;
+}
+.gallery img{
+    padding: 0;
+    width: 24vw;
+}
+.highlights{
+    color: black;
+    text-align: center;
+}
 
-        align-items: center;
-    }
-    .attend__title{
-        background-image: url(images/attend.jpg);
-        width: 50vw;
-        height: 41vh;
-        background-repeat: no-repeat;
-        margin-top: 2rem;
-    }
+.highlights h1{
+    font-family: 'Parisienne', cursive;
+    margin-bottom: 1%;
+    color: #8f4951;
+    font-size: 3rem;
+}
 
-    .attend__info{
-     
-    border: #7a2772 2px solid;
+.highlights__tiles{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins';
+    align-items: center;
+}
+
+.highlights__tiles h2{
+    margin:  0vh;
+}
+
+.highlights__tiles div{
+    width: 85%;
+    text-align: center;
+    font-family: 'Poppins';
+    padding: 2vh 0vh;
+}
+
+.attend {
+    padding-bottom: 5%;
+    display: flex;
+    align-items: center;
+}
+
+.attend__title{
+    width: 50vw;
+    height: auto;
+    margin-top: 2rem;
+}
+
+.attend__info{ 
+    border: #707563 2px solid;
     text-align: center;
     padding: 1vh;
     margin-top: 4vh;
@@ -265,18 +251,20 @@ i{
     font-weight: 100;
     font-size: 1rem;
     box-sizing: border-box;
-    }
-    .attend__info h1{
-        font-family: 'Parisienne', cursive;
-        font-weight: bold;
-        font-size: 5vh;
-        margin: 0vh;
-        padding: 0;
-        color: #7a2772;
-    }
-    .attend__info .bolder{
-        font-weight: bold;
-    }
+}
+
+.attend__info h1{
+    font-family: 'Parisienne', cursive;
+    font-weight: bold;
+    font-size: 5vh;
+    margin: 0vh;
+    padding: 0;
+    color: #8f4951;
+}
+
+.attend__info .bolder{
+    font-weight: bold;
+}
     
 
 @media only screen and (min-width: 735px) {
