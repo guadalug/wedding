@@ -1,4 +1,4 @@
-const weddingDay = new Date(2022, 1, 21, 18,0,0);
+const weddingDay = new Date(2023, 0, 7, 18,0,0);
 const oneMinute = 1000 * 60;
 const secondsInADay = 86_400;
 const secondsInAnHour = 3_600;
@@ -19,7 +19,7 @@ function init(){
     const hours = formatUnit(Math.trunc(seconds / secondsInAnHour));
     seconds-= secondsInAnHour * hours;
     
-    const minutes = formatUnit(Math.ceil(seconds / secondsInAMinute));
+    const minutes = formatUnit(Math.floor(seconds / secondsInAMinute));
     
     const counter = document.getElementById("counter");
     counter.innerHTML = `
@@ -29,7 +29,7 @@ function init(){
 }
 
 setInterval(init,oneMinute);
-init(1,2,3,4,5,6);
+init();
 
 
 
