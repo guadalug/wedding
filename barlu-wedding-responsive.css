@@ -206,7 +206,7 @@ i{
 
 .highlights h1{
     font-family: 'Parisienne', cursive;
-    margin-bottom: 1%;
+    margin-bottom: -2%;
     color: #8f4951;
     font-size: 3rem;
 }
@@ -265,7 +265,12 @@ i{
 .attend__info .bolder{
     font-weight: bold;
 }
-    
+
+a{
+    text-decoration: none;
+    font-weight: 600;
+    color: #8f4951;
+}
 
 @media only screen and (min-width: 735px) {
     .countdown {
