@@ -1,19 +1,23 @@
     body{
-        margin: 0;
-        padding: 0;
+        margin: 0vw;
+        padding: 0vh;
         display: flex;
         justify-content: center;
-    }
-    body{
         flex-direction: column;
     }
     .countdown {
         background-image: url(images/front_page_responsive.jpg);
         height: 100vh;
-        width: 100%;
+        width: 100vw;
+        background-repeat: no-repeat;
+    }
+    .countdown__text{
+        background-color: rgba(255, 255, 255, 0.15);
         color: black;
         text-align: center;
-        background-repeat: no-repeat;
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
     }
     .countdown h1 {
         font-family: 'Great Vibes', cursive;
@@ -25,15 +29,15 @@
         font-family: 'Playfair Display', serif;
         font-weight: 100;
         font-size: 6vh;
-        margin: 29vh 0 0 0;
+        margin: 25vh 0 0 0;
         color: white;
     }
     .countdown h5{
         padding-top: 18vh;
         font-weight: bold;
-        font-family: 'Calibri';
+        font-family: 'Poppins';
         letter-spacing: 5px;
-        font-size: 100%;
+        font-size: 3vw;
         margin: 0;
     }
     .our-story{
@@ -50,7 +54,7 @@
     .our-story h5{
         margin: -2vh 0 0 0;
         font-weight: bold;
-        font-family: 'Calibri';
+        font-family: 'Poppins';
         font-size: 1.7vh;
         color: #7a2772;
     }
@@ -68,7 +72,7 @@
     .our-story__text{
         text-align: left;
         width: 95%;
-        font-family: 'Calibri';
+        font-family: 'Poppins';
         font-weight: 100;
         font-size: 2.7vh;
         margin: 3vh 0 5vh 2vh;
@@ -105,7 +109,7 @@
     }
     .when-where h5{
         margin: -2vh 0 2vh 0;
-        font-family: 'Calibri';
+        font-family: 'Poppins';
         font-size: 1.9vh;
         color: #7a2772;
     }
@@ -117,7 +121,7 @@
     .when-where__tiles-info div{
         padding: 2vh;
         text-align: center;
-        font-family: 'Calibri';
+        font-family: 'Poppins';
     }
     .when-where__tiles-info div h2{
         margin: 0vh;
@@ -151,7 +155,7 @@
     .highlights__tiles{
         display: flex;
         flex-direction: column;
-        font-family: 'Calibri';
+        font-family: 'Poppins';
         align-items: center;
     }
     .highlights__tiles h2{
@@ -160,7 +164,7 @@
     .highlights__tiles div{
         width: 85%;
         text-align: center;
-        font-family: 'Calibri';
+        font-family: 'Poppins';
         padding: 2vh 0vh;
         background-color: white;
     }
@@ -182,7 +186,7 @@
         padding: 1vh;
         margin-top: 4vh;
         width: 28vh;
-        font-family: 'Calibri';
+        font-family: 'Poppins';
         font-weight: 100;
         font-size: 2.2vh;
     }
@@ -196,6 +200,9 @@
     }
     .attend__info .bolder{
         font-weight: bold;
+    }
+    .our-story, .splitter, .phrase, .when-where, .gallery, .highlights, .attend{
+        display: none;
     }
 @media only screen  and (min-device-width: 415px) {
     body{
