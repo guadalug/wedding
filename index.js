@@ -19,7 +19,7 @@ function init(){
     const hours = formatUnit(Math.trunc(seconds / secondsInAnHour));
     seconds-= secondsInAnHour * hours;
     
-    const minutes = formatUnit(Math.floor(seconds / secondsInAMinute));
+    const minutes = formatUnit(Math.trunc(seconds / secondsInAMinute));
     
     const counter = document.getElementById("counter");
     counter.innerHTML = `
