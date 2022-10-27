@@ -1,5 +1,3 @@
-
-    
 body{
     margin: 0vw;
     padding: 0vh;
@@ -76,12 +74,12 @@ label {
 }
 
 .our-story{
-    padding: 10% 5%;
+    padding: 10% 5% 5% 5%;
     text-align: center;
 }
 
 .our-story h1 {
-    font-family: 'Parisienne', cursive;
+    font-family: 'Parisienne';
     font-size: 3rem;
     color: #8f4951;
 }
@@ -113,12 +111,35 @@ label {
     margin-top: 1rem;
 }
        
-    
 .our-story__text .bolder{
     font-weight: 900;
+    font-family: 'Poppins';
+    font-size: 1rem;
     color: #8f4951;
 }
-    
+
+.blessed {
+    text-align: center;
+    font-family: 'Poppins'; 
+    padding: 0 5% 10% 5%;
+    text-align: center;  
+}
+.blessed .blessed__parents{
+    justify-content: center;
+}
+.blessed .blessed__parents__names{
+    font-size: 1.5rem;
+    font-family: 'Parisienne', cursive;
+    color: #8f4951;
+    padding: 3% 3%;
+}
+.blessed .blessed__new-family{
+    font-size: 3rem;
+    font-family: 'Parisienne', cursive;
+    color: #8f4951;
+    padding: 1% 3%;
+}
+
 .phrase {
     border: #707563 2px solid;
     width: 70%;
