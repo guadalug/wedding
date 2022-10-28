@@ -20,15 +20,17 @@ function init(){
     seconds-= secondsInAnHour * hours;
     
     const minutes = formatUnit(Math.trunc(seconds / secondsInAMinute));
+    seconds-= secondsInAMinute * minutes;
     
     const counter = document.getElementById("counter");
     counter.innerHTML = `
         ${days} <span>Dias</span> : 
         ${hours} <span>Hrs</span> : 
-        ${minutes} <span>Min</span>`;
+        ${minutes} <span>Min</span> :
+        ${seconds} <span>Sec</span>`;
 }
 
-setInterval(init,oneMinute);
+setInterval(init,1000);
 init();
 
 
