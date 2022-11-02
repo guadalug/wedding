@@ -41,7 +41,8 @@ label {
     font-size: 5.5rem;
     text-align: left;
     text-align: center;
-    color: #8f4951;
+    /*color: #8f4951;*/
+    color: white;
     margin: 1rem 0;
 }
 
@@ -77,6 +78,7 @@ label {
     letter-spacing: 5px;
     font-size: .8rem;
     color: #707563;
+    color: white;
 }
 
 .our-story{
