@@ -51,6 +51,8 @@ label {
     text-align: center;
     font-family: 'Playfair Display', serif;
     font-weight: 100;
+    background-color: white;
+    opacity: .5;
 }
 
 .countdown div .counter {
