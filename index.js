@@ -25,10 +25,10 @@ function init(){
     
     const counter = document.getElementById("counter");
     counter.innerHTML = `
-        ${days} <span>Dias</span> : 
-        ${hours} <span>Hrs</span> : 
-        ${minutes} <span>Min</span> :
-        ${seconds} <span>Sec</span>`;
+        ${days} <span>d</span> : 
+        ${hours} <span>h</span> : 
+        ${minutes} <span>m</span> :
+        ${seconds} <span>s</span>`;
 }
 
 setInterval(init,oneSecond);
