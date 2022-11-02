@@ -22,6 +22,8 @@ label {
 .countdown {
     /*background: #dedad04d;*/
     background: url("LupitaJoseTomadosMano.jpeg");
+    background-position: center;
+    background-size: cover;
     height: 100vh;
     width: 100vw;
     background-repeat: no-repeat;
@@ -52,6 +54,8 @@ label {
 }
 
 .countdown div .counter {
+    background-color: white;
+    opacity: .5;
     font-size: 1.3rem;
     font-family: 'Poppins';
     font-weight: 600;
