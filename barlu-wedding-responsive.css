@@ -54,7 +54,7 @@ label {
     font-weight: 100;
     background-color: white;  
     width: 10rem;
-    border-radius: 50%; 
+    border-radius: 5%; 
 }
 
 .countdown div .counter {
