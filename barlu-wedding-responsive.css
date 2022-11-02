@@ -33,7 +33,6 @@ label {
     flex-direction: column;
     padding: 30% 5% 40%;
     box-sizing: border-box;
-    margin-bottom: 5vh;
 }
 
 .countdown h1 {
@@ -62,6 +61,7 @@ label {
     font-size: 1.3rem;
     font-family: 'Poppins';
     font-weight: 600;
+    border-radius: 0 0 10px 10px;
 }
 
 .countdown div .counter span {
@@ -83,7 +83,7 @@ label {
 }
 
 .our-story{
-    padding: 10% 5% 5% 5%;
+    padding: 5% 5% 5% 5%;
     text-align: center;
 }
 
