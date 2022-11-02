@@ -31,14 +31,15 @@ label {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 20% 5% 28%;
+    padding: 30% 5% 40%;
     box-sizing: border-box;
+    margin-bottom: 5vh;
 }
 
 .countdown h1 {
     font-family: 'Great Vibes', cursive;
     font-weight: 500;
-    font-size: 5.5rem;
+    font-size: 15vw;
     text-align: left;
     text-align: center;
     /*color: #8f4951;*/
