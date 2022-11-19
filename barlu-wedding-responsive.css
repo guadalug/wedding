@@ -31,14 +31,14 @@ label {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 30% 5% 40%;
+    padding: 15% 3% 65%;
     box-sizing: border-box;
 }
 
 .countdown h1 {
     font-family: 'Great Vibes', cursive;
     font-weight: 500;
-    font-size: 15vw;
+    font-size: 17vw;
     text-align: left;
     text-align: center;
     /*color: #8f4951;*/
@@ -78,12 +78,11 @@ label {
     font-family: 'Poppins';
     letter-spacing: 5px;
     font-size: .8rem;
-    color: #707563;
     color: white;
 }
 
 .our-story{
-    padding: 5% 5% 5% 5%;
+    padding: 0% 5% 5% 5%;
     text-align: center;
 }
 
@@ -96,8 +95,8 @@ label {
 .our-story h5{
     font-weight: bold;
     font-family: 'Poppins';
-    font-size: 1.1rem;
     color: #707563;
+    color: black;
 }
 
 .our-story__body {
