@@ -199,8 +199,7 @@ label {
 
 }
 
-.when-where .image{
-    background-image: url("images/timeline.png");
+.when-where__img{
     width: 10vh;
 }
     
