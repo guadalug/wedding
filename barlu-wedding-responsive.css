@@ -211,12 +211,13 @@ label {
     padding: 5px;
 }
 .grandparents-tile{
-    font-size: 1rem;
+    font-size: .5rem;
     color: gray;
 }
 .grandparents-tile span{
     font-family: 'Parisienne', cursive;
     color:#8f4951;
+    font-size: 1rem;
 }
 i{
     color: #818a6b;
