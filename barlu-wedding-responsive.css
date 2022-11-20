@@ -210,7 +210,14 @@ label {
     font-family: 'Poppins';
     padding: 5px;
 }
-
+.grandparents-tile{
+    font-size: 1rem;
+    color: gray;
+}
+.grandparents-tile span{
+    font-family: 'Parisienne', cursive;
+    color:#8f4951;
+}
 i{
     color: #818a6b;
     font-size: 2rem;
