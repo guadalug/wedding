@@ -82,13 +82,13 @@ label {
 }
 
 .our-story{
-    padding: 0% 5% 5% 5%;
+    padding: 3% 5% 5% 5%;
     text-align: center;
 }
 
 .our-story h1 {
     font-family: 'Parisienne';
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: #8f4951;
     color: #707563;
 }
@@ -109,7 +109,7 @@ label {
 
 .our-story__img{
     width: 50vh;
-    border-radius: 100%;
+    /*border-radius: 100%;*/
 }
 
 .our-story__text {
@@ -303,6 +303,9 @@ a{
 }
 
 @media only screen and (min-width: 735px) {
+    .our-story {
+        padding-top: 8%;
+    }
     .countdown {
         padding-top: 10% 0;
     }
