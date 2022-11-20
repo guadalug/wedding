@@ -132,7 +132,7 @@ label {
     font-family: 'Poppins'; 
     padding: 8% 5% 10% 5%;
     text-align: center;  
-    color: #dedad04d;
+    background-color: #dedad04d;
 }
 .blessed .blessed__parents{
     justify-content: center;
@@ -202,6 +202,8 @@ label {
 .when-where__tiles-info {
     display: flex;
     flex-direction: column;
+}
+.when-where__tiles-info img{
     width: 100wh;
 }
 
