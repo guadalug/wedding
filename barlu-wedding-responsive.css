@@ -199,13 +199,14 @@ label {
 
 }
 
-.when-where img {
+.when-where .image{
+    background-image: url("images/timeline.png");
     width: 10vh;
 }
     
 .maps iframe{
-    width: 40%;
-    height: 20vh;
+    width: 20%;
+    height: 10vh;
 }
 
 i{
