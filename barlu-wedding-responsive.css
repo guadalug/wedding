@@ -199,22 +199,8 @@ label {
 
 }
 
-.when-where__tiles-info {
-    display: flex;
-    flex-direction: column;
-}
-.when-where__tiles-info img{
-    width: 100wh;
-}
-
-.when-where__tiles-info div{
-    padding: 2vh;
-    text-align: center;
-    font-family: 'Poppins';
-}
-    
-.when-where__tiles-info div h2{
-    margin: 0vh;
+.when-where img {
+    width: 10vh;
 }
     
 .maps iframe{
