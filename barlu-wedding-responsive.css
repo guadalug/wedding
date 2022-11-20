@@ -202,6 +202,9 @@ label {
 .when-where__img{
     width: 100vw;
 }
+.when-where .maps iframe{
+    width: 40%;
+}
 .when-where a{
     background-color: #818a6b;
     border-radius: 5px;
