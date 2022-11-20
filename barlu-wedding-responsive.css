@@ -204,9 +204,11 @@ label {
 }
 .when-where a{
     background-color: #818a6b;
-    border-radius: 50%;
-    color: #8f4951;
+    border-radius: 5px;
+    color: white;
     margin-left: 10%;
+    font-family: 'Poppins';
+    padding: 5px;
 }
     
 .maps iframe{
