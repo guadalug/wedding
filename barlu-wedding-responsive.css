@@ -88,7 +88,7 @@ label {
 
 .our-story h1 {
     font-family: 'Parisienne';
-    font-size: 2rem;
+    font-size: 2.2rem;
     color: #8f4951;
     color: #707563;
 }
@@ -160,6 +160,7 @@ label {
     padding: 3%;
     position: relative;
     margin: 0 auto;
+    margin-bottom: 5%;
     box-sizing: border-box;
 }
 
@@ -214,13 +215,13 @@ label {
     padding: 5px;
 }
 .grandparents-tile{
-    font-size: .5rem;
+    font-size: 1rem;
     color: gray;
 }
 .grandparents-tile span{
     font-family: 'Parisienne', cursive;
     color:#8f4951;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 i{
     color: #818a6b;
@@ -245,7 +246,8 @@ i{
     font-family: 'Parisienne', cursive;
     margin-bottom: -2%;
     color: #8f4951;
-    font-size: 3rem;
+    color: #707563;
+    font-size: 2.2rem;
 }
 
 .highlights__tiles{
@@ -259,7 +261,8 @@ i{
     margin:  0vh;
     font-family: 'Parisienne', cursive;
     color: #8f4951;
-    font-size: 3rem;
+    font-size: 2.2rem;
+    color: #707563;
 }
 
 .highlights__tiles div{
