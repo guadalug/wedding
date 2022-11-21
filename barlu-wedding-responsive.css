@@ -160,7 +160,7 @@ label {
     padding: 3%;
     position: relative;
     margin: 0 auto;
-    margin-bottom: 5%;
+    margin-bottom: 7%;
     box-sizing: border-box;
 }
 
@@ -204,7 +204,7 @@ label {
     width: 100vw;
 }
 .when-where .maps iframe{
-    width: 40%;
+    width: 45%;
 }
 .when-where a{
     background-color: #818a6b;
@@ -215,16 +215,17 @@ label {
     padding: 5px;
 }
 .grandparents-tile{
-    font-size: 1rem;
+    font-size: .8rem;
     color: gray;
 }
 .grandparents-tile span{
     font-family: 'Parisienne', cursive;
     color:#8f4951;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
-i{
+.highlights i{
     color: #818a6b;
+    color: #8f4951;
     font-size: 2rem;
 }
 
