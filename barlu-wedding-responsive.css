@@ -352,4 +352,7 @@ a{
      {
         font-size: 1rem;
     }
+    body{
+        width: 70vw;
+    }
 }
