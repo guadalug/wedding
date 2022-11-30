@@ -320,13 +320,22 @@ a{
 }
 
 @media only screen and (min-width: 735px) {
+    body{
+        width: 50vw;
+        margin: 0 auto;
+        border: 2px #707563ba solid;
+    }
     .our-story {
         padding-top: 8%;
     }
     .countdown {
-        padding-top: 10% 0;
+        width: 50vw;
+        height: 70vh;
+        padding: 55% 3% 65%;
     }
-
+    .countdown h{
+        font-size: 8vw;
+    }
     .when-where {
         padding: 5%;
         margin-top: 0;
@@ -354,5 +363,8 @@ a{
     .when-where__tiles-info h2
      {
         font-size: 1rem;
+    }
+    .attend__title{
+        width: 20vw;
     }
 }
