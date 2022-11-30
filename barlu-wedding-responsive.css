@@ -354,11 +354,17 @@ a{
     .highlights__tiles div {
         width: 33%;
     }
+    .phrase::before {
+        width: 50vw;
+    }
 
     label {
         font-size: .8rem;
     }
-
+    .when-where__img{
+        width: 35vw;
+        margin: 0 auto;
+    }
     .highlights__tiles h2,
     .when-where__tiles-info h2
      {
